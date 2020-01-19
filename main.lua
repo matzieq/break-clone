@@ -30,7 +30,7 @@ function love.load()
       ['bricks'] = GenerateQuadsBricks(gTextures['main']),
       ['hearts'] = GenerateQuads(gTextures['hearts'], 10, 9)
     }
-    
+
     push:setupScreen(VIRTUAL_WIDTH, VIRTUAL_HEIGHT, WINDOW_WIDTH, WINDOW_HEIGHT, {
         vsync = true,
         fullscreen = false,
